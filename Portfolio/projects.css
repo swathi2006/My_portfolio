@@ -1,0 +1,60 @@
+
+
+#projects{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows: auto;
+    gap:20px;
+   
+
+   
+}
+#projects .projectbox{
+    width:auto;
+    padding:.5rem;
+    transition:all .3s linear;
+    /* border:.2rem solid transparent;
+    border-image:  linear-gradient(-30deg,rgba(211, 173, 77,.4),rgba(211, 173, 77,.4) 70%,transparent 100%) 60; */
+}
+
+#projects .projectbox:hover{
+ 
+  box-shadow: 0 0 .5rem rgba(211, 173, 77,1) inset;
+    border-image:  linear-gradient(-30deg,rgba(211, 173, 77,.5),rgba(211, 173, 77,1) 30%,transparent 100%) 60;
+}
+.image img{
+    height: 100%;
+    width:100%;
+    
+}
+.image{
+    height:13rem;
+    width:auto;
+    padding: .5rem 1rem;
+}
+
+.projectbox h3{
+    font-size:1.15rem;
+    color: #FDB137;
+    margin:.1rem 0 .4rem 1rem
+}
+
+.projectbox p{
+    font-size:.8rem;
+    margin-bottom:.5rem;
+    margin-left:1rem
+}
+
+.projectbox a{
+    text-decoration: none;
+    font-size:.8.5rem
+}
+
+.link1{
+  margin:1rem;
+  margin-top:2rem
+}
+
+.link2{
+    margin-left:10rem
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="certificates.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+
+</style>
+<body>
+  
+    <header>
+        <h1 >My <span>Portfolio</span></h1>
+    </header>
+
+    <!--Home page-->
+    <div id="home">
+
+        <!--Introduction-->
+        <div id="info">
+            <h5>Hi</h5>
+            <h2>I'm <span>Swathi Vutukuri</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Debitis ullam iure amet molestiae </p>
+             <p>recusandae illo teneturculpa modi, doloremque nemo quidem alias magni, </p>
+            <p>accusantium et sapiente aliquam sit? Ad, porro?</p>
+            <button>Download cv</button>
+        </div>
+
+        <!--image-->
+        <div id="pic">
+            <div class="parent-img">
+                <img src="userpic_4.jpg"/>
+            <div id="box1" class="box"><a href="#about">About</a></div>
+            <div id="box2" class="box"><a href="#services">services</a></div>
+            <!-- <div id="box3" class="box">picture</div> -->
+            <div id="box3" class="box"> <a href="#portfolio">Portfolio</a></div>
+            <div id="box4" class="box"><a href="#skills">Skills</a></div>
+            <div id="box5" class="box"> <a href="#contact">Contact</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!--About section-->
+    
+    <section id="about">
+        
+        <div id="about-section">
+            <div id="about-img">
+                <img src="userpic_2.jpg"/>
+            </div>
+            <div id="about-content">
+                <h1 id="abouthead">About <span>me</span></h1>
+                <div id="about-para"> quidem quasi et eveniet quo deleniti in, nisi sunt. Quidem odio sunt dicta quas consectetur.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, rem itaque. Sit quis odit cupiditate enim molestiae ut</div>
+                <div id="about-frame">
+                    
+                    <a id="educationlink" href="framepages/education.html" target="aboutframe">Education</a>
+                    <a href="framepages/skills.html" target="aboutframe"> skills</a>
+                    <br><br>
+                    <iframe   frameborder="0" name="aboutframe" width="100%" height="260rem"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!--services section-->
+    <section id="services">
+        <h1>My Services</h1>
+        <div id="myservice">
+            <div id="ser-1" class="servicebox">
+                <i class="tag">&lt; / &gt;</i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloremque eius error qui, ad facilis quis eos.</p>
+                 <a href="#webdev">See more</a>
+            </div>
+            <div id="ser-2" class="servicebox">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Lorem, ipsum dolor sit amet  corporis labore maxime aut nesciunt enim, inventore et minima laudantium temporibus dolore.</p>
+                <a href="#database">See more</a>
+            </div>
+            <div id="ser-3" class="servicebox">
+                <i class="fa-solid fa-video"></i>
+                <h3>Content Creation</h3>
+                <p>mus ullam, accusantiuudantium suscipit, reiciendis illum dolores nulla molestiae obcaecati consequatur!</p>
+                <a href="#contentcreate">See more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills-->
+    <section id="portfolio">
+       <h1 id="portfoliohead">Portfolio Showcase</h1>
+
+       <div id="portfolionav">
+        <a  href="#portfoliocontent" id="project">Projects</a>
+        <a href="certificates" id="certificate">certificates</a>
+       </div>
+       <div id="portfoliocontent"></div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+
+        <div>
+            <h4>Contact <span>me</span> </h4>
+            <div id="contactsection">
+            <div id="contact-details">
+            <h3 id="email-id"><i class="fa-solid fa-paper-plane"></i> &nbsp; swathivutukuri7386@gmail.com</h3>
+            <h3 id="contact-no"> <i class="fa-solid fa-phone"></i>  &nbsp; 7386740599</h3>
+            </div>
+            <div id="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+           </div>
+           </div>
+
+       <form>
+        <input type="text" placeholder="Name"><br>
+        <input type="email" placeholder="Email adress"/><br>
+        <textarea placeholder="your message" rows="10" cols="30"></textarea><br>
+        <button id="btn">Submit</button>
+       </form>
+      
+    </section>
+   
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+            document.getElementById("educationlink").click();
+
+        });
+        document.addEventListener("DOMContentLoaded",function(){
+            document.getElementById("project").click();
+
+        });
+
+
+        document.getElementById("project").addEventListener('click',function(event){
+            event.preventDefault();
+            fetch('portfolioshowcase/projects.html')
+            .then(response => {
+                if(!response.ok){
+                    throw new Error('network  response was not ok');
+                }
+                return response.text();
+            })
+            .then(data=>{
+                document.getElementById('portfoliocontent').innerHTML=data;
+            })
+            .catch(err=>{
+                console.log("error fetching html file",err);
+                document.getElementById('portfoliocontent').innerHTML='<p>Error loading content </p>';
+            });
+               
+     
+            });
+
+            document.getElementById("certificate").addEventListener('click',function(event){
+            event.preventDefault();
+            fetch('portfolioshowcase/certificates.html')
+            .then(response => {
+                if(!response.ok){
+                    throw new Error('network  response was not ok');
+                }
+                return response.text();
+            })
+            .then(data=>{
+                document.getElementById('portfoliocontent').innerHTML=data;
+            })
+            .catch(err=>{
+                console.log("error fetching html file",err);
+                document.getElementById('portfoliocontent').innerHTML='<p>Error loading content </p>';
+            });
+               
+     
+            });
+    </script>
+</body>
+</html>
