@@ -87,7 +87,7 @@ h1 span{
     flex-grow: 1;
    
     border:1px solid black;
-    flex-basis:34rem;
+    
     height:100vh;
     margin-right:.2rem;
     display: flex;
